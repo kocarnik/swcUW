@@ -32,6 +32,8 @@ abline(a,b, col="red")
 ## may also be able to find this R code in search features)
 dev.print(pdf, "toyline plot.pdf")
 
+## if putting things online, good to have *.png formats
+dev.print(png, "toylinePlot.png", width=480)
 
 
 
